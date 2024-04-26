@@ -29,7 +29,7 @@ p {
   font-family: "Inter", sans-serif;
   padding-bottom: 30px;
   color: hsl(236, 13%, 42%);
-  font-weight: 400;
+  font-weight: 380;
 }
 svg {
   margin-top: 20px;
@@ -195,7 +195,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+    width: 380px;
     margin: auto auto;
     padding: 15px;
   }
@@ -205,7 +205,7 @@ ul {
   .third,
   .second-third {
     display: block;
-    width: 450px;
+    width: 380px;
     padding: 0;
   }
   .third {
@@ -216,24 +216,28 @@ ul {
   }
   .fourth {
     margin: 30px 0;
+    width: 380px;
   }
 
   .first .mobile {
     display: block;
-    height: 450px;
-    width: 450px;
+    height: 380px;
+    width: 380px;
   }
   .bottom {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 380px;
     margin: 20px 0;
   }
   .item {
     margin-bottom: 20px;
-    width: 450px;
+    width: 380px;
   }
   .fifth p {
+    padding-bottom: 10px;
+  }
+  .sixth p {
     padding-bottom: 10px;
   }
 }
